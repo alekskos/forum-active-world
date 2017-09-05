@@ -1,0 +1,602 @@
+@media print {
+  /* Стиль для печати */
+  .print-page {
+    font: 400 12pt 'Verdana';
+    background:#FFF;
+    color:#000;
+  }
+  button.print {display: none; }
+  .triangle-right, .show, #price,
+  #consult, .footer-row, .footer-nav {
+    display: none;
+  }
+}
+
+/*Стили media-CSS*/
+@media (max-width: 1024px) {
+  .phone-top, .email-top {
+    display: none;
+  }
+  div.row.speakers img {
+    width: 150px;
+  }
+  div.green, div.violet, div.blue, div.fuksia {
+    width: 150px;
+    height: 150px;
+  }
+  .speakers {
+    margin-left: 15px;
+  }
+  .navbar-header .phone-top {
+    display: none;
+  }
+  .speaker-list img.img-rounded {
+    width: 150px;
+  }
+  div.show:hover .title-one {
+    top: -160px;
+  }
+  div.title-one.text-center {
+    width: 150px;
+    height: 150px;
+  }
+  .title-one p {
+    display: none;
+  }
+  div.fuksia {
+    font-size: 22px;
+  }
+  button.btn.btn-default.btn-primary-1,
+  button.btn.btn-primary.btn-primary-2 {
+    margin-top: 0;
+  }
+  button.btn.btn-default.btn-primary-1 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 992px) {
+  button.btn.btn-primary.btn-primary-2.bottom-btn {
+    margin-top: 30px;
+  }
+  .footer-row > .footer-social {
+    order: 0;
+  }
+  .footer-row > .footer-nav {
+    padding: 0;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .img-rounded + span.web {
+    left: 140px;
+  }
+  .sidorenko {
+    display: none;
+  }
+  div.sidorenko2.col-xs-6 {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  #accordion {
+    display: none;
+  }
+  .accordion, .accordion * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .accordion {
+    overflow: hidden;
+    width: 100%;
+    margin: 0px auto;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    background: #f7f7f7;
+  }
+
+  .accordion-section-title {
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+    border-bottom: 1px solid #333;
+    background: #333;
+    transition: all linear 0.15s;
+    font-size: 1.2em;
+    text-shadow: 0px 1px 0px #1a1a1a;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .accordion-section-title.active, .accordion-section-title:hover {
+    background: #4c4c4c;
+    color: #cccccc;
+    text-decoration: none;
+  }
+
+  .accordion-section:last-child .accordion-section-title {
+    border-bottom: none;
+  }
+
+  .accordion-section-content {
+    padding: 15px;
+    display: none;
+  }
+  .navbar-default .nav-center li:hover {
+    height: 100%;
+  }
+  div.triangle-right {
+  	width: 0;
+  	height: 0;
+  	border-top: 250px solid transparent;
+  	border-left: 250px solid #d86830;
+  	border-bottom: 250px solid transparent;
+    position: absolute;
+    top: 60px;
+    left: 0%;
+  }
+  .day {
+    font-size: 48px;
+  }
+  p.speaker-name {
+    font: 100 18px 'Roboto';
+  }
+  .logo-top {
+    height: 35px;
+  }
+  h1.main-name {
+    font-size: 60px;
+  }
+  p.title-first,
+  p.title-second,
+  p.title-third {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1;
+  }
+  div.row.plan {
+    margin-top: 20px;
+  }
+  div.row.speakers {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  div#speakers.speaker-list {
+    padding: 18px;
+  }
+  div.row.speakers img {
+    width: 180px;
+  }
+  div.green, div.violet, div.blue, div.fuksia {
+    width: 180px;
+    height: 180px;
+  }
+  .fuksia {
+    display: block;
+  }
+  .modal-footer > .btn {
+    font-size: 18px;
+  }
+  .sidorenko {
+    display: none;
+  }
+  div.sidorenko2.col-xs-6 {
+    display: block;
+  }
+  .green p.date,
+  div.violet > span {
+    font-size: 28px;
+  }
+  h2.slim-header,
+  h3.slim-header {
+    font-size: 26px;
+  }
+  h3.title-speakers {
+    display: none;
+  }
+  div.second-page {
+    margin-top: 0;
+  }
+  div.sidorenko2.col-xs-6 {
+    display: block;
+  }
+  .cont img {
+    width: 200px;
+    height: auto;
+  }
+  button.btn.btn-default.btn-primary-1 {
+    margin-top: 0;
+  }
+  div.row.text-center.schedule {
+    font-size: 12px;
+    padding-left: 0px;
+  }
+  div.consult {
+    padding: 10px;
+  }
+  div.consult > h3.slim-header {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  div.consult ul li {
+    font-size: 11px;
+    list-style: disc;
+    width: 85%;
+  }
+  div.consult ul {
+    text-align: left;
+  }
+  button.btn.btn-default.btn-primary-1,
+  a.btn.btn-default.btn-primary-1,
+  button.btn.btn-primary.btn-primary-2 {
+    font-size: 16px;
+  }
+  button.btn.btn-primary.btn-primary-2.bottom-btn {
+    margin-top: 30px;
+  }
+}
+
+    /*MEDIA 480px*/
+
+@media (max-width: 480px) {
+  /*#forum {
+    overflow: scroll;
+    height: 350px;
+  }*/
+/**********************************************************************************/
+  .what-block {
+    margin: 0 16px !important;
+  }
+  #forum .center-block {
+    text-align: left !important;
+  }
+  .center-block p {
+    padding-left: 45px;
+  }
+  .col-md-3, .col-md-4 {
+    padding: 0;
+  }
+  .fa-5x {
+    font-size: 2em;
+    float: left;
+    padding-top: 10px;
+  }
+  a.w-inline-block {
+    text-align: center;
+  }
+  .col-xs-11.col-md-4.content-border {
+    margin-bottom: 20px;
+  }
+  .btn.btn-primary.btn-reg {
+    margin-top: 20px;
+    width: 100%;
+  }
+  form .btn.btn-default {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .or {
+    margin: 0 !important;
+  }
+
+
+/**********************************************************************************/
+  .navbar-default .nav-center li:hover {
+    display: none;
+  }
+  .navbar-default .nav-center .bilets:hover {
+    display: none;
+  }
+  h1.main-name {
+    line-height: 1;
+    letter-spacing: 0;
+  }
+  h1.main-name, p.title-first,
+  p.title-second, p.title-third {
+    text-align: right;
+  }
+  div.inter {
+    padding-top: 10px;
+    padding-bottom: 40px
+  }
+  div.row.speakers {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 15px;
+    margin-left: -13px;
+  }
+  div.row.speakers img {
+    width: 120px;
+  }
+  div.green, div.violet, div.blue, div.fuksia {
+    width: 120px;
+    height: 120px;
+  }
+  .fuksia {
+    display: block;
+  }
+  .cont img {
+    display: none;
+  }
+  div.container.schedule-bg {
+    background-size: contain;
+    text-align: center;
+  }
+  div.schedule-bg img {
+    display: none;
+  }
+  div.row.about-speakers {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .fuksia span {
+    font-size: 14px;
+  }
+  .blue span, .web {
+    font-size: 12px;
+  }
+  p.month {
+    font-size: 18px;
+  }
+  p.day {
+    font-size: 36px;
+  }
+  .title-one button.btn-speaker {
+    font-size: 12px;
+  }
+  div.show {
+    height: 120px;
+    /*overflow: hidden;*/
+  }
+  div.show:hover .title-one {
+    visibility: visible;
+    top: -130px;
+  }
+  div.title-one {
+    width: 120px;
+    height: 120px;
+    background: rgba(131, 179, 34, .8);
+    position: relative;
+    color: white;
+    visibility: hidden;
+  }
+  div.title-one h4 {
+    font-size: 12px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+  }
+  .schedule-bg h4.slim-header {
+    font-size: 18px;
+    padding-top: 0;
+  }
+  .schedule-bg i.fa.fa-certificate.fa-3x {
+    font-size: 1.5em;
+  }
+  .schedule-bg p.dream {
+    font-size: 14px;
+    padding-top: 15px;
+  }
+  ul.step {
+    font-size: 14px;
+  }
+  h5.profi.text-center {
+    font-size: 18px;
+  }
+  span.ave {
+    font-size: 20px;
+  }
+  span.ave2 {
+    font-size: 24px;
+  }
+  .bg_about h4.white-header {
+    font-size: 20px;
+    margin-top: 75px;
+  }
+  div.about-forum {
+    font-size: 14px;
+    padding: 10px;
+    padding-top: 20px;
+  }
+  div.about-forum .effective {
+    margin-top: 20px;
+  }
+  button.btn.btn-default.btn-primary-2.scheme {
+    font-size: 11px;
+    margin-bottom: 0;
+  }
+  div.flex-left {
+    margin-bottom: 15px;
+  }
+  div.video-content iframe {
+    max-width: 90%;
+    max-height: 50%;
+  }
+  span.web {
+    left: 22px;
+  }
+  h5.forum-sum {
+    font-size: 20px;
+  }
+  div.free-consult {
+    font: 400 20px 'Roboto';
+    width: 90%;
+  }
+  div.inter .btn-primary-2 {
+    font-size: 18px;
+  }
+  div.consult p {
+    font-size: 14px;
+    width: 85%;
+  }
+  .btn-primary-2.bottom-btn {
+    font-size: 18px;
+  }
+  .text-center.schedule {
+    font-size: 10px;
+    text-align: left;
+  }
+  button.video-btn {
+    font-size: 18px;
+    padding: 8px;
+  }
+  button.video-btn a,
+  a.btn.btn-default, {
+    font-size: 14px;
+  }
+  h3.slim-header.text-center {
+    margin: 20px;
+  }
+  .consult h4.slim-header {
+    padding-left: 0;
+  }
+  .consult button.btn.btn-default.btn-primary-2 {
+    font-size: 14px;
+  }
+  i.fa.fa-video-camera.fa-2x.web {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  img.img-rounded {
+    width: 150px;
+  }
+  .img-rounded + span.web {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+  }
+  .modal-body.modal-about {
+    font-size: 16px;
+  }
+  h4.white-header {
+    font-size: 24px;
+  }
+  .consult h2 {
+    font-size: 22px;
+  }
+  .about-forum.white {
+    font-size: 16px;
+  }
+  .about-forum .reserv img {
+    display: none;
+  }
+  .present.text-center {
+    padding: 5px 10px 20px;
+    margin: 0;
+  }
+  .present h3 {
+    font-size: 30px;
+  }
+  .present h4 {
+    font-size: 24px;
+  }
+  p.bilet {
+    font-size: 18px;
+  }
+  p.tagline {
+    font-size: 12px;
+    line-height: 1;
+  }
+  p#back-top {
+    position: fixed;
+    bottom: 30px;
+    margin-left: 15px;
+    z-index: 999;
+  }
+  p#back-top a {
+    width: 58px;
+  }
+  p#back-top span {
+    width: 58px;
+    height: 58px;
+    display: block;
+    margin-bottom: 7px;
+    background: none;
+  }
+  h4.slim-header.text-center {
+    font-size: 24px;
+  }
+  a.w-inline-block {
+    padding-left: 0;
+  }
+  a.w-inline-block img {
+    width: 120px;
+  }
+  p.text-center.info {
+    font-size: 14px;
+  }
+  p.trans {
+    font-size: 16px;
+  }
+  footer.footer-row > .footer-brand > img,
+  footer.footer-row > .footer-nav {
+    margin: 20px 0 0 10px;
+  }
+  footer.footer-row > .footer-brand > img {
+    width: 70px;
+  }
+  footer.footer-row > .footer-social {
+    order: 0;
+  }
+}
+@media (max-width: 320px) {
+  button.btn.btn-default.btn-primary-2.mob {
+    width: 100%;
+    font-size: 14px;
+    text-transform: none;
+  }
+  div.row.speakers img {
+    width: 90px;
+  }
+  div.green, div.violet,
+  div.blue, div.fuksia,
+  div.title-one {
+    width: 90px;
+    height: 90px;
+  }
+  div.show {
+    height: 90px;
+    /*overflow: hidden;*/
+  }
+  div.show:hover .title-one {
+    visibility: visible;
+    top: -100px;
+  }
+  .title-one button.btn-speaker {
+    font-size: 10px;
+  }
+  .sidorenko2 {
+    display: block;
+  }
+  i.fa.fa-video-camera.fa-2x.web {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  img.img-rounded {
+    width: 120px;
+  }
+  .img-rounded + i.fa.fa-video-camera.fa-2x.web {
+    position: absolute;
+    top: 18px;
+    left: 34px;
+  }
+  div.free-consult {
+    font-size: 16px;
+  }
+  i.fa-5 {
+    font-size: 5em;
+  }
+  .modal-body.modal-about {
+    font-size: 12px;
+  }
+  span.web {
+    top: 2px;
+    left: 18px;
+  }
+  button.btn.btn-default.btn-primary-2.scheme {
+    font-size: 9px;
+  }
+}
